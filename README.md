@@ -62,17 +62,15 @@ Eigen3 is required to run BRUCE simulation. You do not need to manually install 
 
 ### 2. Installation
 
-Create a copy of this repo in your local machine, and cd into the main directory of this repo, then run ```./install.sh```. The installation should be automatic.  
-
-To install:
-
-cd into Gazebointerface/build/ then
-sudo cmake --install .
-
-To uninstall:
-xargs rm < install_manifest.txt
-
+Create a copy of this repo in your local machine, and cd into the main directory of this repo, then run ```./install.sh```. The installation should be automatic.
 
 
 ## Operation
+
+## Misc
+
+Some random hints:
+To uninstall packages installed with cmake --install:
+While in the build folder, run: ```xargs rm < install_manifest.txt```
+
 
