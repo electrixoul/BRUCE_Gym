@@ -14,3 +14,9 @@ cd into Gazebointerface/build/ then
 ```
 xargs rm < install_manifest.txt
 ```
+
+To set Gazebo interface plugin path:
+cd into the folder where the .so files are located, then do
+```
+export GAZEBO_PLUGIN_PATH=$PWD
+```
