@@ -1,0 +1,6 @@
+/home/oem/BoostSharedMemoryTemplate/build/CMakeFiles/edit_cache.dir
+/home/oem/BoostSharedMemoryTemplate/build/CMakeFiles/rebuild_cache.dir
+/home/oem/BoostSharedMemoryTemplate/build/CMakeFiles/list_install_components.dir
+/home/oem/BoostSharedMemoryTemplate/build/CMakeFiles/install.dir
+/home/oem/BoostSharedMemoryTemplate/build/CMakeFiles/install/local.dir
+/home/oem/BoostSharedMemoryTemplate/build/CMakeFiles/install/strip.dir

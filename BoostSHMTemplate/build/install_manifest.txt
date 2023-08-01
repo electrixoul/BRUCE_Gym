@@ -1,0 +1,3 @@
+/usr/local/include/BoostSharedMemoryTemplate/SharedMemory.hpp
+/usr/local/include/BoostSharedMemoryTemplate/SharedMemory.tpp
+/usr/share/cmake-3.22/Modules/FindBoostSharedMemoryTemplate.cmake
