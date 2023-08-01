@@ -1,5 +1,7 @@
 # BRUCE_Gazebointerface
 
+Build for and tested in Ubuntu 22.04.1
+
 To install:
 cd into Gazebointerface/build/ then
 
