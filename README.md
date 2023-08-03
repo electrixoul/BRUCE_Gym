@@ -1,8 +1,10 @@
-# BRUCE Simulation
+# BRUCE Gym - Simulation Environment
 
-BRUCE simulaiton can __ONLY__ run on Linux systems.
+BRUCE Gym is the Simulation Environment Setup that can be used to run simulation for BRUCE. Unfortunately, BRUCE Gym can __ONLY__ be deployed on Linux systems.
 
 This repo is built for and tested in Ubuntu 22.04.1 x86_64. We do not guarentee its performance on other setup.
+
+This is only the simulation environment setup. You need access to BRUCE-OP to play with the simulation.
 
 
 ## Dependencies
