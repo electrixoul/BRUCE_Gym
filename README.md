@@ -68,7 +68,7 @@ Create a copy of this repo in your local machine, and cd into the main directory
 
 #### a. GazeboInterface
 
-cd into './GazeboInterface/' and run 'sudo './gazebo_interface-0.1.1-Linux.sh'
+cd into './GazeboInterface/' and run ```sudo './gazebo_interface-x.x.x-Linux.sh```
 
 Give the file excutable permission with command 'sudo chmode +x gazebo_interface-0.1.1-Linux.sh' if the .sh file is not excutable.
 
