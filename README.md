@@ -64,7 +64,19 @@ Eigen3 is required to run BRUCE simulation. You do not need to manually install 
 
 ### 2. Installation
 
-Create a copy of this repo in your local machine, and cd into the main directory of this repo, then run ```./install.sh```. The installation should be automatic.
+Create a copy of this repo in your local machine, and cd into the main directory of this repo.
+
+#### a. GazeboInterface
+
+cd into './GazeboInterface/' and run 'sudo './gazebo_interface-0.1.1-Linux.sh'
+
+Give the file excutable permission with command 'sudo chmode +x gazebo_interface-0.1.1-Linux.sh' if the .sh file is not excutable.
+
+#### b. Eigen3, varibales, etc.
+
+Make sure you do the above step first.
+
+Go back to the './BRUCE_Gym' folder and run ```./install.sh```. The installation should be automatic.
 
 
 ## Operation
