@@ -72,6 +72,8 @@ cd into './GazeboInterface/' and run 'sudo './gazebo_interface-0.1.1-Linux.sh'
 
 Give the file excutable permission with command 'sudo chmode +x gazebo_interface-0.1.1-Linux.sh' if the .sh file is not excutable.
 
+__Attention:__ answer __'y'__ to both questions when prompted.
+
 #### b. Eigen3, varibales, etc.
 
 Make sure you do the above step first.
