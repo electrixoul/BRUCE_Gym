@@ -1,3 +1,0 @@
-/usr/local/lib/gazebo_interface/libgazebo_world_interface_bruce.so
-/usr/local/lib/gazebo_interface/libgazebo_model_interface_bruce.so
-/usr/local/lib/gazebo_interface/libcontact_bruce.so
