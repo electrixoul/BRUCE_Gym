@@ -6,27 +6,6 @@ if [ "$EUID" -ne 0 ]; then
     exit
 fi
 
-echo -e "\033[32mInstalling BRUCE Simulation Interface...\033[0m"
-
-sleep 2
-
-# Install Eigen3
-echo -e "\033[32mInstalling Eigen3...\033[0m"
-git clone https://gitlab.com/libeigen/eigen.git
-cd eigen
-mkdir build
-cd build
-if ! cmake ..; then
-    echo -e "\033[31mEigen3 CMAKE BUILD FAILED\033[0m"
-    exit
-fi
-if ! sudo make install; then
-    echo -e "\033[31mEigen3 C++ BUILD FAILED\033[0m"
-    exit
-fi
-cd ../..
-rm -rf eigen
-
 # Install BoostSHMTemplate
 echo -e "\033[32mInstalling BoostSHMTemplate...\033[0m"
 cd ./BoostSHMTemplate/
@@ -71,6 +50,3 @@ pip3 install .
 cd ../..
 
 echo -e "\033[32mInstallation complete!\033[0m"
-
-
-

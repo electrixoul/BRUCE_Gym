@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oem/BoostSharedMemoryTemplate
+CMAKE_SOURCE_DIR = /home/oem/BRUCE_Gym/BoostSHMTemplate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oem/BoostSharedMemoryTemplate/build
+CMAKE_BINARY_DIR = /home/oem/BRUCE_Gym/BoostSHMTemplate/build
 
 #=============================================================================
 # Directory level rules for the build root directory

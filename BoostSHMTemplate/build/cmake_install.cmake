@@ -1,4 +1,4 @@
-# Install script for directory: /home/oem/BoostSharedMemoryTemplate
+# Install script for directory: /home/oem/BRUCE_Gym/BoostSHMTemplate
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -56,8 +56,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   file(INSTALL DESTINATION "/usr/local/include/BoostSharedMemoryTemplate" TYPE FILE FILES
-    "/home/oem/BoostSharedMemoryTemplate/include/BoostSharedMemoryTemplate/SharedMemory.hpp"
-    "/home/oem/BoostSharedMemoryTemplate/include/BoostSharedMemoryTemplate/SharedMemory.tpp"
+    "/home/oem/BRUCE_Gym/BoostSHMTemplate/include/BoostSharedMemoryTemplate/SharedMemory.hpp"
+    "/home/oem/BRUCE_Gym/BoostSHMTemplate/include/BoostSharedMemoryTemplate/SharedMemory.tpp"
     )
 endif()
 
@@ -70,7 +70,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/share/cmake-3.22/Modules" TYPE FILE FILES "/home/oem/BoostSharedMemoryTemplate/cmake/FindBoostSharedMemoryTemplate.cmake")
+  file(INSTALL DESTINATION "/usr/share/cmake-3.22/Modules" TYPE FILE FILES "/home/oem/BRUCE_Gym/BoostSHMTemplate/cmake/FindBoostSharedMemoryTemplate.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -81,5 +81,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/oem/BoostSharedMemoryTemplate/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/oem/BRUCE_Gym/BoostSHMTemplate/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
