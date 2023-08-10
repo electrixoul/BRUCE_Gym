@@ -24,7 +24,7 @@ Make sure you have these basic packages installed: ```pip3 show numpy numba osqp
 If not, install them:
 
 ```
-pip3 install numpy numba osqp termcolor scipy
+$ pip3 install numpy numba osqp termcolor scipy
 ```
 
 ### 3. PySHMXtreme
@@ -41,7 +41,7 @@ Gazebo 11 is used as the main simulation environment. Please make sure you have 
 
 After successfully installing Gazebo 11, create a directory for custom gazebo models: ```mkdir ~/.gazebo/models```
 
-Then copy and paste ```export GAZEBO_PLUGIN_PATH="$GAZEBO_PLUGIN_PATH:/usr/local/lib/gazebo_interface"``` into '~/.bashrc', and then run 'source ~/.bashrc'.
+<s>Then copy and paste ```export GAZEBO_PLUGIN_PATH="$GAZEBO_PLUGIN_PATH:/usr/local/lib/gazebo_interface"``` into '~/.bashrc', and then run 'source ~/.bashrc'.</s>
 
 Sudo permissions might be required.
 
@@ -56,6 +56,12 @@ Make sure that you have access to the following dependencies:
 
 #### a. [CMake](https://cmake.org/)
 
+CMake is required to install the following dependencies so make sure CMake is installed/up-to-date in your system before you move forward.
+
+```
+$ sudo apt install cmake g++ make
+```
+
 You will need to install CMake first in the following steps.
 
 #### b. [Eigen3](https://gitlab.com/libeigen/eigen)
@@ -64,22 +70,9 @@ Eigen3 is required to run BRUCE simulation. You do not need to manually install 
 
 ### 2. Installation
 
-Create a copy of this repo in your local machine, and cd into the main directory of this repo.
+While you are in './BRUCE_Gym' folder, run ```sudo ./install.sh```. 
 
-#### a. GazeboInterface
-
-cd into './GazeboInterface/' and run ```sudo './gazebo_interface-x.x.x-Linux.sh```
-
-Give the file excutable permission with command 'sudo chmode +x gazebo_interface-0.1.1-Linux.sh' if the .sh file is not excutable.
-
-__Attention:__ answer __'y'__ to both questions when prompted.
-
-#### b. Eigen3, varibales, etc.
-
-Make sure you do the above step first.
-
-Go back to the './BRUCE_Gym' folder and run ```./install.sh```. The installation should be automatic.
-
+The installation should be automatic.
 
 ## Operation
 
