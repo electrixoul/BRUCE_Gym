@@ -1,15 +1,6 @@
 echo "Installing BRUCE Simulation Interface..."
 sleep 2
 
-# save git cache settings
-GIT_CACHE_SETTINGS=$(git config --global --get credential.helper)
-git config --global credential.helper "cache --timeout=600"
-
-BOOST_SHARED_MEMORY_GITHUB=https://github.com/Westwood-Robotics/BoostSharedMemoryTemplate
-GAZEBO_INTERFACE_GITHUB=https://github.com/Westwood-Robotics/GazeboInterface
-GAZEBOPY_GITHUB=https://github.com/Westwood-Robotics/gazebopy
-PYSHMXTREME_GITHUB=https://github.com/Westwood-Robotics/PySHMXtreme
-
 # Install Eigen3
 echo "Installing Eigen3..."
 git clone https://gitlab.com/libeigen/eigen.git

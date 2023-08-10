@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gazebopy
+Version: 0.0.1
+Summary: An interface using ROS2 to control simulations in Gazebo
+Home-page: https://github.com/Westwood-Robotics/gazebopy
+Author: Westwood Robotics Corporation
+Author-email: info@westwoodrobotics.io
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+
+# gazebopy
+
+Library for controlling robots/simulations in Gazebo from python.
+
+## Platforms Tested On
+
+1. Ubuntu 18.04 (Gazebo 9.8)
+
+

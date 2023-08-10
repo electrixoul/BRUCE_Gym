@@ -1,0 +1,9 @@
+README.md
+setup.py
+gazebopy/GazeboInterface.py
+gazebopy/__init__.py
+gazebopy.egg-info/PKG-INFO
+gazebopy.egg-info/SOURCES.txt
+gazebopy.egg-info/dependency_links.txt
+gazebopy.egg-info/requires.txt
+gazebopy.egg-info/top_level.txt
